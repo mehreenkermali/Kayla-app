@@ -1,0 +1,30 @@
+@charset "utf-8";
+.resize1 {
+	display: block;
+	max-width:100%;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Gallery {
+	background-color: #FFF;
+	display: block;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding:6px;
+}
+h4 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+}
+p {
+	font-family: 'Average', serif;
+	color: #666;
+	font-size: 14px;
+}
+h5 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #F36;
+}

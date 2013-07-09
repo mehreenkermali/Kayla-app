@@ -1,0 +1,27 @@
+@charset "utf-8";
+.map {
+	display: block;
+	max-width:100%;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	width: 100%;
+	
+}
+h4 {
+	font-family: 'Elsie', cursive;
+}
+h5 {
+	font-family: 'Average', serif;
+	color: #F33;
+	text-align: center;
+}
+
+
+p { font-family:'Average', serif;
+
+
+}

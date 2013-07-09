@@ -1,0 +1,43 @@
+h4 {
+	font-family: 'Alegreya', serif;
+	color: #C60;
+	font-size: 19px;
+	font-weight: bold;
+}
+h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	;
+	font-style: normal;
+	text-decoration: blink;
+}
+p {
+	font-family: 'Average', serif;
+	;
+	;
+}
+.facebook {
+	display: block;
+	max-width:100%;
+	height:auto;
+	margin-right: 20px;
+	margin-left: 35px;
+	float: left;
+	-webkit-transition: background-color 1s, color 0.5s;
+}
+
+.facebook:hover{
+	border: 2px dotted #999;
+}
+.twitter {
+	display: block;
+	max-width:100%;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+	-webkit-transition: background-color 1s, color 0.5s;
+}
+
+.twitter:hover{
+	border: 2px dotted #999;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Canopy Walk</title>
+
+		<link href="css/styles.css" type="text/css" rel="stylesheet" />
+	
+	<link href="css/photoswipe.css" type="text/css" rel="stylesheet" />
+	
+	<script type="text/javascript" src="lib/klass.min.js"></script>
+	<script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
+	
+	
+	<script type="text/javascript">
+
+		(function(window, PhotoSwipe){
+		
+			document.addEventListener('DOMContentLoaded', function(){
+			
+				var
+					options = {},
+					instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
+			
+			}, false);
+			
+			
+		}(window, window.Code.PhotoSwipe));
+		
+	</script>
+    
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+ 
+<link href="css/canopywalk.css" rel="stylesheet" type="text/css">
+<!-- text font -->
+
+<link href='http://fonts.googleapis.com/css?family=Chela+One|Average|Fauna+One|Croissant+One|Offside|Elsie|EB+Garamond|Pathway+Gothic+One|Berkshire+Swash|Oregano|Trocchi' rel='stylesheet' type='text/css'>
+
+<!-- text font -->
+
+<link href="css/canopygallery.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="themes/themehaha.min.css" />
+</head>
+
+<body>
+<div data-role="page" id="canopywalk" data-theme="c">
+  <div data-role="header" data-position="fixed" data-theme="c">
+  
+  		<a href="attraction.html" rel="external" data-role="button" data-icon="home">Back</a>
+  		
+    <h1>Canopy Walk</h1>
+  </div>
+  <div data-role="content">
+  <img class="photo" src="img/image1.jpg" width="640" height="480">
+  
+ <br />
+  	<p class="textbox">
+Located at Bukit Lagong Forest Reserve at about 300 meter at sea level, this famous attraction walkway was constructed in 1992 for the purpose of scientific study of flora and fauna. This walkway system spans for 150 meter and is suspended between trees at approximately 30 meter above ground level.
+. </p>
+
+<br/>
+        <div data-role="controlgroup">
+        <a href="#gallery" data-role="button">Gallery</a>
+      
+        <div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+        <h3><center>Map's trail </center></h3>
+        
+        <img class="size" src="img_a/maptrail.jpg" width="600" height="500"></div>
+        
+        </div>
+        <div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+        
+        <h3><center> Ticket Info </center></h3>
+        	<h4> Charges and Tickets: </h4>
+            
+            <p>RM10.00 (Non Malaysian adult) <br />
+RM5.00 (Malaysian adult) <br>
+RM3.00 (Student 13 years and above – must show your student ID)<br>
+RM1.00 (Children 12 years and below) </p>
+        
+        </div>
+        
+  </div>
+<div data-role="footer" data-theme="c">
+    <h1>Copyright &copy; Student</h1>
+      </div>
+
+
+</div>
+
+<!-- End Page -->
+
+<!-- gallery -->
+<div data-role="page" id="gallery" data-theme="c">
+  <div data-role="header">
+  			
+            <a href="#canopywalk" data-role="button" data-icon="arrow-l">Back</a>
+  		
+    <h1>Gallery</h1>
+  </div>
+  <div data-role="content">
+  
+  		<h4> Canopy Gallery </h4>
+  
+  		  <ul id="Gallery" class="gallery">
+		
+		<li><a href="images/full/001.jpg"><img src="images/thumb/001.jpg" alt="Kitten scream" /></a></li>
+		<li><a href="images/full/002.jpg"><img src="images/thumb/002.jpg" alt="HuH?" /></a></li>
+		<li><a href="images/full/003.jpg"><img src="images/thumb/003.jpg" alt="Help me~!" /></a></li>
+		<li><a href="images/full/004.jpg"><img src="images/thumb/004.jpg" alt="I'm cool" /></a></li>
+		<li><a href="images/full/005.jpg"><img src="images/thumb/005.jpg" alt="Gong Xi Fa Cai" /></a></li>
+		<li><a href="images/full/006.jpg"><img src="images/thumb/006.jpg" alt="Yes?" /></a></li>
+		<li><a href="images/full/007.jpg"><img src="images/thumb/007.jpg" alt="Image 007" /></a></li>
+
+		
+	</ul>
+  
+  
+  </div>
+  <div data-role="footer">
+    <h1>Copyright &copy; Student</h1>
+  </div>
+</div>
+</body>
+</html>

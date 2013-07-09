@@ -1,0 +1,42 @@
+#container{
+	max-width:620px;
+	margin:0 auto;
+	border: medium solid #999;
+	-webkit-box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, .3);
+	box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, .3);
+	background-color: #C60;
+}
+
+ul.bjqs-controls.v-centered li a{
+	display:none;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+	color:#C60;
+	background-color: #C60;
+}
+
+ol.bjqs-markers li a{
+	padding:5px 10px;
+	color:#fff;
+	margin:5px;
+	text-decoration: none;
+	background-color: #09F;
+	display: none;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+	display: none;
+	background-color: #C60;
+}
+
+p.bjqs-caption{
+	background-color: rgba(204,102,0,0.5);
+	color: #FFFFFF;
+	display: none;
+}

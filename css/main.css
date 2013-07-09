@@ -1,0 +1,15 @@
+.welcomepage {
+	height: 480px;
+	width: 320px;
+	background-image: url(../res/screen/android/screen-mdpi-portrait.png);
+}
+.resize {
+	display: block; 
+	max-width:100%;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+h3 {
+	text-align: center;
+}
