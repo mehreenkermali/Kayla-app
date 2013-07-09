@@ -3,14 +3,14 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.hello-world"
         version   = "2.0.0">
-    <name>ISLAND</name>
+    <name>Green Adventure</name>
 
     <description>
-        MAGICAL ISLAND
+       Green Adventure
     </description>
 
-    <author href="http://phonegap.com" email="kermali.mehreen@gmail.com">
-        TDS TEAM 
+    <author href="http://phonegap.com" email="kaylatan93@hotmail.com">
+        Kayla Tan
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
